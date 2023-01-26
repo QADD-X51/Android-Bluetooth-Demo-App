@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <!--Information text-->
+    <TextView
+        android:id="@+id/bluetoothInfoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="@color/black"/>
+
+    <!--Bluetooth Icon-->
+    <ImageView
+        android:id="@+id/bluetoothImageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"/>
+
+    <!--Bluetooth On Button-->
+    <Button
+        android:id="@+id/onButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="220dp"
+        android:text="Turn On"/>
+
+    <!--Bluetooth Off Button-->
+    <Button
+        android:id="@+id/offButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="220dp"
+        android:text="Turn Off"/>
+
+    <!--Discover Button-->
+    <Button
+        android:id="@+id/discoverButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="220dp"
+        android:text="Discover Device"/>
+
+    <!--Paired Button-->
+    <Button
+        android:id="@+id/pairedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="220dp"
+        android:text="Show Paired Devices"/>
+
+    <!--Paired Devices Display-->
+    <TextView
+        android:id="@+id/pairedDevicesTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
